@@ -1,0 +1,11 @@
+item_id,product_name,department_name,price,stock_quantity
+1,complete multivitamins,health,17,100
+2,melatonin,health,7,80
+3,candy (50 per box),food,25,40
+4,red maple plant,lawn & garden,50,2
+5,fertilizer,lawn & garden,15,20
+6,shoes,clothing,40,50
+7,pants,clothing,24,100
+8,cat bed,pets,20,5
+9,Cat Condo,pets,80,10
+10,cat food,pets,25,30
