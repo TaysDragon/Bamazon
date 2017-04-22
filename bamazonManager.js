@@ -52,9 +52,10 @@ var start = function() {
 var viewAll = function() {
     connection.query("SELECT * FROM products", function(err, results) {
         if (err) throw err;
-        console.log("-----------------------------------");
+        console.log("\n-----------------------------------");
+        console.log("ID | Product | Department | Price | Quantity");
         for (var i = 0; i < results.length; i++) {
-            console.log(results[i].item_id + " | " + results[i].product_name + " | " + results[i].department_name + " | " + results[i].price + " | " + results[i].stock_quantity);
+            console.log(results[i].item_id + " | " + results[i].product_name + " | " + results[i].department_name + " | " + "$" + results[i].price + " | " + results[i].stock_quantity);
         }
         console.log("-----------------------------------");
     });
